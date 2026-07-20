@@ -2,8 +2,8 @@
 NAME=smol-course
 PYVERSION=3.12
 
-app-version:
-	echo "COMMIT_ID=${COMMIT_ID}"
+#app-version:
+#	echo "COMMIT_ID=${COMMIT_ID}"
 
 venv:
 	uv venv /tmp/venv/${NAME} --python ${PYVERSION}
