@@ -2,6 +2,16 @@
 NAME=smol-course
 PYVERSION=3.12
 
+# Notebook tips:
+# To convert a code cell to text cell: Ctrl + M, then M
+# To covert a text cell to code cell: Ctrl + M, then Y
+
+# Adjust size of headers:
+# use # (Heading 1, Largest), 
+# use ## heading 2
+# use ### Heading 3
+# or for precise size control use:
+# <font size="5"> Your Text </font>
 #app-version:
 #	echo "COMMIT_ID=${COMMIT_ID}"
 
